@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+
+    <com.xinhua.xinhuashe.view.ListViewInScrollView
+                android:id="@+id/homepage_viewpager_ListView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp"
+                android:listSelector="@drawable/general_listview_selector"
+                android:scrollbars="none"
+                tools:ignore="NestedScrolling" />
+    <RelativeLayout 
+        android:id="@+id/lay1_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homepage_viewpager_ListView1"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多>>"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            />
+	</RelativeLayout>
+</RelativeLayout>

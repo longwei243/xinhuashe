@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.xinhuanews.sheng"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager 
+        android:id="@+id/guide_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+    
+    <com.xinhua.xinhuashe.view.FlowIndicator
+        android:id="@id/homepage_header_FlowIndicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:visibility="gone"
+        app:count="3"
+        app:point_normal_color="#45000000"
+        app:point_radius="3dip"
+        app:point_seleted_color="@color/white"
+        app:point_size="5dip"
+        app:space="10dip" />
+
+</RelativeLayout>

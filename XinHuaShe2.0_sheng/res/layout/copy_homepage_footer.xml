@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/home_bg" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_centerVertical="true"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/home_image_zhong"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/home_image_boder"
+        android:src="@drawable/homepage_phone" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/home_text_xinwendongtai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/home_image_zhong"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="新　闻"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/home_text_xinwendongtai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/home_image_zhong"
+        android:layout_below="@id/home_text_xinwendongtai"
+        android:layout_marginRight="5dp"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="动　态"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/home_text_zhangshangzhengwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_text_xinwendongtai"
+        android:layout_alignBottom="@+id/home_text_xinwendongtai"
+        android:layout_toRightOf="@+id/home_image_zhong"
+        android:layout_marginLeft="5dp"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="掌　上"
+        android:singleLine="true"
+        android:textSize="18sp" />
+	<TextView
+	    android:id="@+id/home_text_zhangshangzhengwu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+		android:layout_toRightOf="@+id/home_image_zhong"
+        android:layout_below="@id/home_text_xinwendongtai"
+        android:layout_marginLeft="5dp"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="政　务"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/home_text_huiminshenghuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@+id/home_image_zhong"
+        android:layout_marginRight="5dp"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="生　活"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/home_text_huiminshenghuo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_toLeftOf="@+id/home_image_zhong"
+        android:layout_above="@id/home_text_huiminshenghuo"
+        android:layout_marginRight="5dp"
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="惠　民"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    
+
+    <TextView
+        android:id="@+id/home_text_hudongfenxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_text_huiminshenghuo"
+        android:layout_alignBottom="@+id/home_text_huiminshenghuo"
+        android:layout_alignLeft="@+id/home_text_zhangshangzhengwu"
+        
+        android:ems="3"
+        android:textColor="@color/white"
+        android:text="分　享"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/home_text_hudongfenxiang1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_toRightOf="@+id/home_image_zhong"
+        android:layout_above="@id/home_text_hudongfenxiang"
+        android:layout_marginLeft="5dp"
+        android:ems="3"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:text="互　动"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="homepage_grid_title">
+        <item>晋源快讯</item>
+        <item>精彩晋源</item>
+        <item>太原热点</item>
+        <item>山西新闻</item>
+        <item>中国网事</item>
+        <item>官方发布</item>
+        <item>掌上政务</item>
+        <item>生活通</item>
+        <item>有话要说</item>
+    </string-array>
+
+   
+    <string-array name="leftmenu_title_list">
+        <item>我的收藏</item>
+        <item>消息记录</item>
+        <item>投票</item>
+        <item>版本更新</item>
+        <item>设置</item>
+        <item>关于</item>
+        <item>意见反馈</item>
+    </string-array>
+
+    <array name="leftmenu_icon_list">
+        <item>@drawable/leftmenu_myattention</item>
+        <item>@drawable/leftmenu_message</item>
+        <item>@drawable/leftmenu_vote1</item>
+        <item>@drawable/leftmenu_update</item>
+        <item>@drawable/leftmenu_setting</item>
+        <item>@drawable/leftmenu_about</item>
+        <item>@drawable/leftmenu_about</item>
+    </array>
+    <array name="sector_menu_icon_list">
+        <item>@drawable/sector_menu_item_news</item>
+        <item>@drawable/sector_menu_item_work_guide</item>
+        <item>@drawable/sector_menu_item_tools</item>
+        <item>@drawable/sector_menu_item_talk</item>
+    </array>
+
+    <string-array name="sector_menu_title_list">
+        <item>工具</item>
+        <item>政务通</item>
+        <item>圈内聊</item>
+        <item>E言堂</item>
+    </string-array>
+    <string-array name="weather_life_title_list">
+        <item>穿衣指数</item>
+        <item>感冒指数</item>
+        <item>运动指数</item>
+        <item>紫外线指数</item>
+    </string-array>
+
+    <array name="weather_life_icon_list">
+        <item>@drawable/weather_life_dress</item>
+        <item>@drawable/weather_life_cold</item>
+        <item>@drawable/weather_life_sports</item>
+        <item>@drawable/weather_life_ur</item>
+    </array>
+
+    <!-- 办事指南 -->
+    <string-array name="workguide_list">
+        <item>出生证</item>
+        <item>结婚证</item>
+        <item>往来港澳通行证</item>
+        <item>独身子女证</item>
+        <item>护照</item>
+    </string-array>
+
+   
+     
+     <string-array name="convenience_of_people_list">
+        <item>便民信息</item>
+        <item>办事指南</item>
+        <item>常用电话</item>
+        <item>违章查询</item>
+        <item>火车票代售点</item>
+        <item>公交查询</item>
+        <item>菜价查询</item>
+        <item>景点门票</item>
+        <item>列车查询</item>
+        <item>快递查询</item>
+        <item>邮编查询</item>
+        <item>节日大全</item>
+    </string-array>
+
+    <array name="convenience_of_people_bg_list">
+        <item>@color/cop_bg_1</item>
+        <item>@color/cop_bg_2</item>
+        <item>@color/cop_bg_3</item>
+    </array>
+    
+    
+    <string-array name="shanxi_province_item">  
+        <item>太原</item>  
+        <item>大同</item>  
+        <item>阳泉</item>  
+        <item>长治</item>  
+        <item>晋城</item>  
+        <item>朔州</item>  
+        <item>晋中</item>  
+        <item>运城</item>  
+        <item>忻州</item>  
+        <item>临汾</item>  
+        <item>吕梁</item>  
+    </string-array>  
+    
+    <string-array name="taiyuan_city_item">  
+        <item>小店</item>  
+        <item>古交市</item>  
+        <item>万柏林</item>  
+        <item>晋源</item>  
+    </string-array>  
+    
+    <string-array name="datong_city_item">  
+        <item>城区</item>  
+        <item>南郊区</item>  
+        <item>浑源</item>  
+        <item>灵丘</item>  
+    </string-array>  
+    <string-array name="yangquan_city_item">  
+        <item>阳泉城区</item>  
+        <item>阳泉矿区</item>  
+        <item>阳泉郊区</item>  
+        <item>盂县</item>  
+    </string-array>  
+    <string-array name="changzhi_city_item">  
+        <item>长治郊区</item>  
+        <item>襄垣</item>  
+        <item>屯留</item>  
+        <item>长子</item>  
+    </string-array>  
+    <string-array name="jincheng_city_item">  
+        <item>晋城城区</item>  
+        <item>沁水</item>  
+        <item>阳城</item>  
+        <item>泽州</item>  
+    </string-array>  
+    <string-array name="shuozhou_city_item">  
+        <item>朔城区</item>  
+        <item>山阴</item>  
+        <item>怀仁</item>  
+    </string-array>  
+    <string-array name="jinzhong_city_item">  
+        <item>和顺</item>  
+        <item>寿阳</item>  
+        <item>平遥</item>  
+        <item>灵石</item>  
+    </string-array>  
+    <string-array name="yuncheng_city_item">  
+        <item>盐湖区</item>  
+        <item>永济</item>  
+        <item>河津</item>  
+    </string-array>  
+    <string-array name="xinzhou_city_item">  
+        <item>忻府区</item>  
+        <item>定襄</item>  
+        <item>五台</item>  
+        <item>代县</item>  
+        <item>原平</item>  
+        <item>静乐</item>  
+    </string-array>  
+    <string-array name="linfen_city_item">  
+        <item>尧都区</item>  
+        <item>洪洞</item>  
+        <item>安泽</item>  
+    </string-array>  
+    <string-array name="lvliang_city_item">  
+        <item>离石区</item>  
+        <item>柳林</item>  
+        <item>交口</item>  
+        <item>孝义</item>  
+    </string-array>  
+
+</resources>

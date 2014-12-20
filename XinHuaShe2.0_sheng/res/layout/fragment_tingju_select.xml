@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fadingEdge="none"
+    android:fadingEdgeLength="0dp"
+    android:scrollbars="none"
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        <RelativeLayout
+	        android:id="@id/main_header_RelativeLayout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp" >
+	
+	        <include layout="@layout/main_header_blue" />
+	
+	    </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <View 
+                android:id="@+id/sheng_top_view"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F8F8F8"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="厅局"
+                android:textSize="20sp"
+                />
+            <com.xinhua.xinhuashe.view.GridViewInScrollView 
+                android:id="@+id/tingju_gridview"
+                android:layout_below="@id/sheng_top_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+			    android:fadingEdge="none"
+			    android:fadingEdgeLength="0dp"
+			    android:gravity="center_horizontal"
+			    android:horizontalSpacing="6dp"
+			    android:padding="5dp"
+			    android:scrollbars="none"
+			    android:verticalSpacing="6dp"
+			    android:numColumns="4"
+			    android:listSelector="@drawable/gridview3_selector"
+                />
+            <Button 
+                android:id="@+id/tingju_btn"
+                android:layout_below="@id/tingju_gridview"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="80dp"
+                android:layout_height="26dp"
+                android:text="确定"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="#0166AC"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+</ScrollView>

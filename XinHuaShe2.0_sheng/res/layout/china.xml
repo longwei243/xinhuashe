@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <WebView
+        android:id="@id/news_detail_WebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/news_detail_bottom_LinearLayout"
+        android:padding="5dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

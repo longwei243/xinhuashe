@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="news_red">#900000</color>
+    <color name="news_blue">#1B75B5</color>
+    <color name="news_red_more">#BA4545</color>
+    <color name="news_grag">#B4B4B4</color>
+    <color name="news_bg">#EEEEEE</color>
+    <color name = "personal_data_bg">#F6F6F6</color>
+    
+    <color name="viewpager_tab_main_bg">#DFDFDF</color>
+    <color name="viewpager_tab_bg_pressed">#6633B5E5</color>
+    <color name="viewpager_tab_bg_selected">#ff4799d3</color>
+    <color name="viewpager_tab_text_selected">#ff4799d3</color>
+    <color name="viewpager_tab_text_normal">#797979</color>
+    
+    <color name="main_bg">#f1f1f1</color>
+    <color name="main_header_blue">#4799d3</color>
+    <color name="main_header_white">#FFFFFF</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="pink">#fc6e51</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#EDEDED</color>
+    <color name="light_gray">#f7f7f7</color>
+    <color name="text_main">#000000</color>
+    <color name="text_gray">#afafaf</color>
+    <color name="listview_divider">#afafaf</color>
+    <color name="leftmenu_divider">#60a3cd</color>
+    <color name="leftmenu_listview_pressed">#33f7f7f7</color>
+    <color name="leftmenu_listview_normal">#11f7f7f7</color>
+    <color name="parent_dialog_bg">#EDEDED</color>
+    
+    <color name="tab_text_selected">#FFFFFF</color>
+    <color name="tab_text_normal">#8A8A8A</color>
+    
+    <color name="login_tab_text_selected">#000000</color>
+    <color name="login_tab_text_normal">#8A8A8A</color>
+    <color name="login_tab_bg_selected">#EDEDED</color>
+    <color name="login_tab_bg_normal">#C7C7C7</color>
+    
+    <!-- 启动页 -->
+    <color name="start_bg">#f7f7f7</color>
+    <color name="button_bg">#1683D5</color>
+    
+    
+    <!-- 引导页 -->
+    <color name="guide_bg">#f7f7f7</color>
+    
+    <!-- 首页 -->
+    <color name="homepage_title_text">#44a3e7</color>
+    <color name="homepage_playview_bg">#65000000</color>
+    <color name="homepage_path_solid">#000000</color>
+    <color name="homepage_path_stroke">#60000000</color>
+    <color name="homepage_gridview_bg">#4799d3</color>
+    
+    <!-- weather -->
+    <color name="base_text_shadow">#4d000000</color>
+    <color name="weather_text">#ffedf0f3</color>
+    
+    <!-- 详细页 -->
+    <color name="news_detail_title">#111111</color>
+    <color name="news_detail_content">#111111</color>
+    <!-- 修改信息 -->
+    <color name="detail_char">#8F8F8F</color>
+    
+     <!-- 生活通 -->
+    <color name="cop_bg_1">#1aa6fd</color>
+    <color name="cop_bg_2">#add654</color>
+    <color name="cop_bg_3">#ff8019</color>
+    
+    <color name="vote_blue">#428DE0</color>
+    <color name="vote_green">#5EA238</color>
+    <color name="vote_red">#C05053</color>
+    <color name="vote_yellow">#DA7831</color>
+    
+    
+    
+</resources>

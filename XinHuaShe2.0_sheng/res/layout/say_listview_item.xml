@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="@drawable/say_content_listitem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@id/say_listview_item_saytype_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textColor="@color/text_main"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@id/say_listview_item_content_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/say_listview_item_saytype_TextView"
+            android:textColor="@color/text_main"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <View 
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="#AAAAAA"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/gray"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@id/say_listview_item_time_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@color/text_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@id/say_target_item_rep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/main_header_blue"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+  
+</LinearLayout>

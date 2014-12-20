@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5dp" >
+    
+    <RelativeLayout 
+        android:id="@+id/first_news_listview_item_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#EBE9EA"
+        
+        >
+        <View 
+            android:id="@+id/first_news_listview_item_top_view"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/news_red"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            />
+        <TextView 
+            android:id="@+id/first_news_listview_item_top_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/first_news_text"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/first_news_listview_item_top_view"
+            android:textColor="@color/news_blue"
+            />
+        <View 
+            android:id="@+id/first_news_listview_item_top_view2"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/first_news_listview_item_top_textview"
+            android:background="#EBE9EA"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView 
+            android:id="@+id/first_news_listview_item_top_textview_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/first_news_more"
+            android:textSize="14sp"
+            android:textColor="@color/news_red_more"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/first_news_listview_item_title_TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_below="@id/first_news_listview_item_top_layout"
+        android:textColor="@color/text_main"
+        android:text="变态变得快乐解放路口的附近的放"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/first_news_listview_item_icon_ImageView"
+        android:layout_width="80dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/first_news_listview_item_title_TextView"
+        android:layout_centerVertical="true"
+        android:background="#d1d1d1"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/base_list_default_icon" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@id/first_news_listview_item_icon_ImageView"
+        android:layout_below="@id/first_news_listview_item_title_TextView"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/first_news_listview_item_icon_ImageView" >
+
+        <TextView
+            android:id="@+id/first_news_listview_item_content_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="3"
+            android:textColor="@color/text_gray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/first_news_listview_item_attention_TextView"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/first_news_listview_item_content_TextView"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/news_listview_item_attention"
+            android:drawablePadding="3dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@color/text_gray"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    
+    <View 
+        android:layout_below="@id/first_news_listview_item_icon_ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="3dp"
+        />
+
+</RelativeLayout>

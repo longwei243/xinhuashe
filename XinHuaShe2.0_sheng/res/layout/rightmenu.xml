@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none"
+    android:fadingEdgeLength="0dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <LinearLayout
+            android:id="@id/weather_location_LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/QRCode_show_ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="matrix"
+                android:src="@drawable/base_list_default_icon" />
+
+            <TextView
+                android:id="@+id/QRCode_show_TextView"
+                style="@style/base_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="我的二维码名片"
+                android:textColor="@color/weather_text"
+                android:textSize="@dimen/hourforecast_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/weather_index_bg"
+            android:cacheColorHint="@color/transparent"
+            android:clickable="true"
+            android:listSelector="@color/transparent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+           >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@id/weather_state_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15.0dip"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:scaleType="centerInside"
+                    android:textColor="@color/weather_text"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="14.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/weather_temperature_TextView"
+                    style="@style/base_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/weather_text"
+                    android:textSize="@dimen/hourforecast_text_size" />
+
+                <TextView
+                    android:id="@id/weather_wind_TextView"
+                    style="@style/base_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/weather_text"
+                    android:textSize="@dimen/hourforecast_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.xinhua.xinhuashe.view.GridViewInScrollView
+            android:id="@id/rightmenu_GridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@color/transparent"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:scrollbars="none"
+            android:verticalSpacing="3dp"
+            tools:ignore="NestedScrolling" />
+    </LinearLayout>
+
+</ScrollView>

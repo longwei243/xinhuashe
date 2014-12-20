@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dp">
+        
+
+        <ImageView
+            android:id="@+id/display_selectedpic_imageview"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/base_list_default_icon"/>
+
+        <EditText
+            android:id="@id/selectedpic_content_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_detail_edit_bg"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="请输入您的描述（可选）"
+            android:inputType="textMultiLine"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/text_main"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            android:text="@string/sgv_mylocation"
+            android:textColor="@color/text_main"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/display_mylocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/text_main"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sgv_upload_selectedpic"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="@string/say_content_upload"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

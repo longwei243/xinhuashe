@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/login_tab"
+    android:background="@null"
+    android:drawableLeft="@drawable/radiobutton"
+    android:padding="10dp"
+    android:drawablePadding="6dp"
+    android:gravity="left|center_vertical"
+    android:text="@string/say_type_report"
+    android:textColor="@color/black"
+    android:textSize="13sp"
+    />

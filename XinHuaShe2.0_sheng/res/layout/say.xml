@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.ab.view.pullview.AbPullListView
+        android:id="@id/say_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/white"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:listSelector="@drawable/general_listview_selector"
+        android:padding="10dp"
+        android:layout_marginBottom="40dp"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/say_publish_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="我要说"
+        android:textColor="@color/white"
+        android:textSize="16sp" 
+        android:visibility="visible"
+        />
+
+</RelativeLayout>

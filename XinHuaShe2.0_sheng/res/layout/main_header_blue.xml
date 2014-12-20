@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_header_blue_RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/main_header_blue" >
+
+    <ImageView
+        android:id="@id/main_header_left_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginBottom="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/header_menu_left_white" />
+
+    <com.xinhua.xinhuashe.view.NewFontsTextView
+        android:id="@id/main_header_title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:layout_marginBottom="3dp"
+        android:textSize="20sp" />
+
+    <com.xinhua.xinhuashe.view.NewFontsTextView
+        android:id="@+id/main_header_text"
+        android:layout_toRightOf="@id/main_header_title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="3dp"
+        android:text="晋中"
+        android:layout_marginLeft="5dp"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+         />
+    <ImageView
+            android:id="@+id/main_header_spinner_ImageView"
+            android:layout_toRightOf="@id/main_header_text"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab_spinner_normal" />
+    <FrameLayout
+        android:id="@id/main_header_right_FrameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="3dp"
+        android:layout_centerVertical="true"
+        android:paddingRight="10.0dp" />
+    
+</RelativeLayout>

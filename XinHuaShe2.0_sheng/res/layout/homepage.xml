@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/homepage_ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:fadingEdge="none"
+    android:fadingEdgeLength="0dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/homepage_header" />
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#EFEFEF"
+            >
+            <TextView 
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:text="山西省基督教方式"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+             <Button 
+                android:id="@+id/b1"
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:text="查看详情"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:background="#1C547B"
+                android:layout_below="@id/t1"
+                android:layout_alignParentRight="true"
+                />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1" 
+                android:maxLines="2"
+                android:text="的大法师的沙发沙发 爱的发啊发的是啊阿萨德发"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/b1"
+                />
+           
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lay1_bg"
+            android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout  
+			       android:id="@+id/linearLayout1"  
+			       android:layout_width="fill_parent"  
+			       android:layout_height="30.0dip"  
+			       android:background="@drawable/lay1_bg" >  
+			  
+			       <TextView  
+			           android:id="@+id/text1"  
+			           android:layout_width="fill_parent"  
+			           android:layout_height="fill_parent"  
+			           android:layout_weight="1.0"  
+			           android:gravity="center"  
+			           android:text="本地新闻"  
+			           android:textColor="#607AAC"  
+			           android:textSize="16dp" />  
+			  
+			       <TextView  
+			           android:id="@+id/text2"  
+			           android:layout_width="fill_parent"  
+			           android:layout_height="fill_parent"  
+			           android:layout_weight="1.0"  
+			           android:gravity="center"  
+			           android:text="要闻推荐"  
+			           android:textColor="#607AAC"  
+			           android:textSize="16dp" />  
+			   </LinearLayout>  
+			  
+            	<LinearLayout 
+            	    android:layout_width="fill_parent"
+            	    android:layout_height="2dp"
+            	    android:background="@drawable/lay1_bg"
+            	    android:layout_marginLeft="-10dp"
+					android:layout_marginRight="-10dp"
+            	    >
+            	    <ImageView  
+			       android:id="@+id/cursor"  
+			       android:layout_width="fill_parent"  
+			       android:layout_height="2dp"  
+			       android:scaleType="matrix"  
+			       android:src="@drawable/a" />
+            	</LinearLayout>
+			     
+			  
+			   <android.support.v4.view.ViewPager  
+			       android:id="@+id/vPager"  
+			       android:layout_width="match_parent"  
+			       android:layout_height="wrap_content"  
+			       android:flipInterval="30"  
+			       android:layout_marginTop="6dp"
+			       />  
+			  
+        </LinearLayout>
+        
+       <include layout="@layout/homepage_footer"/>
+    </LinearLayout>
+
+</ScrollView>

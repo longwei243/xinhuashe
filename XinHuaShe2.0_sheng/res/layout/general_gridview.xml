@@ -1,0 +1,13 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/general_gridview_GridView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@color/transparent"
+    android:fadingEdge="none"
+    android:fadingEdgeLength="0dp"
+    android:gravity="center_horizontal"
+    android:horizontalSpacing="6dp"
+    android:listSelector="@drawable/general_listview_selector"
+    android:padding="5dp"
+    android:scrollbars="none"
+    android:verticalSpacing="6dp" />
